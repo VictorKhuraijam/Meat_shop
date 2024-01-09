@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Dancing+Script&family=Hind:wght@300&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(103, 109, 106); */
+}
+
+.bod {
+    height: 100vh;
+    background-image: url(meat234.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    height: 200px;
+
+
+}
+
+
+.logo {
+    height: 160px;
+    width: 220px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160px;
+    width: 60vw;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+
+
+}
+
+nav ul li {
+    display: flex;
+    font-weight: 600;
+
+}
+
+nav :hover {
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(219, 231, 231);
+}
+
+.sns {
+    height: 160px;
+    width: 250px;
+    /* background-color: rgb(127, 180, 155); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sns .fb {
+    cursor: pointer;
+    background-image: url(facebook\ \(4\).png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.sns .inst {
+    cursor: pointer;
+    background-image: url(instagram\ \(3\).png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.sns .fb:hover {
+    background-image: url(facebook\ blk.png);
+
+}
+
+.sns .inst:hover {
+    background-image: url(instagram\ blk.png);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font: italic 700 100px/100px "Aller";
+}
+
+.title-intro {
+    color: white;
+    text-align: center;
+    font: 400 36px/36px 'Dancing Script', cursive;
+}
+
+.card-body {
+    height: 80vh;
+    width: 100vw;
+    margin-top: 100px;
+
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+
+}
+
+
+
+.header2 {
+
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0 0 100px 0;
+    font-family: 'Lato', sans-serif;
+    color: #222;
+}
+
+.header2 span {
+    color: #777;
+
+    font: 400 48px/48px 'Dancing Script', cursive;
+}
+
+.card {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    height: 400px;
+    width: 380px;
+
+    letter-spacing: 2px;
+}
+
+.card1 strong {
+    color: #900000;
+    font: 400 48px/48px 'Dancing Script', cursive;
+    padding: 0 0 20px 0;
+}
+
+h3 {
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+}
+
+h4 {
+
+    font: 400 18px/18px 'Open Sans', sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+
+}
+
+.btn{
+
+    font-size: 14px;
+    padding: 11px 33px;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 12px;
+    color: rgb(191, 207, 207);
+    background-color: #900000;
+    cursor: pointer;
+}
+
+.card2 {
+    height: 60vh;
+    width: 30vw;
+
+    letter-spacing: 2px;
+}
+
+.card2 strong {
+    color: #900000;
+    font: 400 48px/48px 'Dancing Script', cursive;
+    padding: 0 0 20px 0;
+}
+
+.card3 .card4{
+    height: 60vh;
+    width: 30vw;
+
+    letter-spacing: 2px;
+}
+
+.card3 strong {
+    color: #900000;
+    font: 400 48px/48px 'Dancing Script', cursive;
+    padding: 0 0 20px 0;
+}
+
+.card4 strong {
+    color: #900000;
+    font: 400 48px/48px 'Dancing Script', cursive;
+    padding: 0 0 20px 0;
+}
